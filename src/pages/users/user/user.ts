@@ -15,6 +15,7 @@ export class UserPage implements OnInit {
         this.name = this.navParams.get('userName');
     }
     onGoBack(){
-        this.navCtrl.pop();
+        //this.navCtrl.pop();
+        this.navCtrl.popToRoot();
     }
 }
