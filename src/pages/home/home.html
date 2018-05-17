@@ -1,12 +1,12 @@
 <ion-header>
   <ion-navbar>
+    <button ion-button icon-onlyt [navPush]="addPlacePage">
+      <ion-icon name="add"></ion-icon>
+    </button>
     <ion-title>
-      Ionic Fadergs APP
+      Fadergs Place Marker
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
- <!--<button ion-button [navPush]="usrPage" >Users</button>-->
- <button ion-button (click)="onGoToUsers()">Users</button>
-</ion-content>
+
